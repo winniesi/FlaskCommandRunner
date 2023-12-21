@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Run Command</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Viewport height */
+            margin: 0;
+            /* Remove default margin */
+        }
+
+        .command-form {
+            text-align: center;
+            /* Center text elements inside the form */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="command-form">
+        <h1>Run a Command</h1>
+        <form action="/run_command" method="post">
+            <input type="text" name="command" placeholder="Enter a command">
+            <input type="submit" value="Run Command">
+        </form>
+    </div>
+</body>
+
+</html>
